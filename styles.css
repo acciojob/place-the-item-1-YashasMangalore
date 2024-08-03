@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	gap:10px;
+	justify-content:space-between;
+	background-color:pink;
+}
+.item{
+	flex:0 0 auto;
+	padding:10px 20px;
+	background-color:grey;
+    border:1px solid black;	
+}
